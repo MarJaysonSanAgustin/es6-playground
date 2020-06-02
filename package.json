@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "babel --presets es2015 src -d dist",
+    "exec:1": "node dist/01-babel-test.js",
     "exec:2": "node dist/02-let-const.js",
     "exec:3": "node dist/03-classes.js",
     "exec:4": "node dist/04-new-methods.js"
